@@ -154,12 +154,12 @@ h6 {
 # Global Header
 --------------------------------------------------------------*/
 .header {
-  --background-color: rgba(255, 255, 255, 0.414);
-  --default-color: black;
+  --background-color: #03562fb6;
+  --default-color: #ffffff;
   --heading-color: #ffffff;
   color: var(--default-color);
-  background-color: var(--background-color);
   backdrop-filter: blur(10px);
+  background-color: var(--background-color);
   padding: 15px 0;
   transition: all 0.5s;
   z-index: 997;
@@ -167,11 +167,10 @@ h6 {
 
 .header .logo {
   line-height: 1;
-  color: black;
 }
 
 .header .logo img {
-  max-height: 32px;
+  max-height: 40px;
   margin-right: 8px;
 }
 
@@ -185,7 +184,7 @@ h6 {
   font-size: 18px;
   margin: 0;
   font-weight: 700;
-  color: black;
+  color: var(--heading-color);
 }
 
 .scrolled .header {
@@ -215,7 +214,7 @@ h6 {
 
   .navmenu a,
   .navmenu a:focus {
-    color: black;
+    color: var(--nav-color);
     padding: 18px 15px;
     font-size: 15px;
     font-family: var(--nav-font);
@@ -242,7 +241,7 @@ h6 {
   .navmenu li:hover>a,
   .navmenu .active,
   .navmenu .active:focus {
-    color: black;
+    color: var(--nav-hover-color);
   }
 
   .navmenu .dropdown ul {
